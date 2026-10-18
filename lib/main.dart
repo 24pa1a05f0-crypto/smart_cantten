@@ -1,0 +1,5 @@
+import 'package:flutter/material.dart';
+import 'screens/login_screen.dart';
+import 'theme/app_theme.dart';
+void main() { runApp(const SmartCanteenApp()); }
+class SmartCanteenApp extends StatelessWidget { const SmartCanteenApp({super.key}); @override Widget build(BuildContext context) => MaterialApp(title:'Smart Canteen',debugShowCheckedModeBanner:false,theme:AppTheme.light,home:const LoginScreen()); }

@@ -1,0 +1,72 @@
+import '../models/menu_item.dart';
+
+const demoMenu = <MenuItem>[
+  MenuItem(
+    id: 'veg-sandwich',
+    name: 'Grilled Veg Sandwich',
+    description: 'Toasted bread, fresh vegetables and mint chutney.',
+    category: 'Snacks',
+    price: 65,
+    rating: 4.7,
+    isAvailable: true,
+    imageUrl: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=700&auto=format&fit=crop&q=80',
+  ),
+  MenuItem(
+    id: 'masala-dosa',
+    name: 'Masala Dosa',
+    description: 'Crisp dosa with spiced potato filling and sambar.',
+    category: 'Breakfast',
+    price: 80,
+    rating: 4.8,
+    isAvailable: true,
+    imageUrl: 'https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=700&auto=format&fit=crop&q=80',
+  ),
+  MenuItem(
+    id: 'veg-thali',
+    name: 'Mini Veg Thali',
+    description: 'Rice, dal, seasonal vegetables and two rotis.',
+    category: 'Meals',
+    price: 120,
+    rating: 4.6,
+    isAvailable: true,
+    imageUrl: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700&auto=format&fit=crop&q=80',
+  ),
+  MenuItem(
+    id: 'cold-coffee',
+    name: 'Cold Coffee',
+    description: 'Chilled, lightly sweetened coffee with milk.',
+    category: 'Beverages',
+    price: 55,
+    rating: 4.5,
+    isAvailable: true,
+    imageUrl: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=700&auto=format&fit=crop&q=80',
+  ),
+  MenuItem(
+    id: 'paneer-roll',
+    name: 'Paneer Tikka Roll',
+    description: 'Soft roll filled with paneer tikka and crunchy salad.',
+    category: 'Snacks',
+    price: 95,
+    rating: 4.8,
+    isAvailable: false,
+    imageUrl: 'https://images.unsplash.com/photo-1626074353765-517a681e40be?w=700&auto=format&fit=crop&q=80',
+  ),
+  MenuItem(
+    id: 'poha',
+    name: 'Kanda Poha',
+    description: 'A light breakfast with peanuts, onion and lemon.',
+    category: 'Breakfast',
+    price: 45,
+    rating: 4.4,
+    isAvailable: true,
+    imageUrl: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=700&auto=format&fit=crop&q=80',
+  ),
+];
+
+const menuCategories = <String>[
+  'All',
+  'Breakfast',
+  'Meals',
+  'Snacks',
+  'Beverages',
+];
